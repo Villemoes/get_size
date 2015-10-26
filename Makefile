@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS := -O2 -g -Wall -Wextra -Wno-sign-compare
 depssuffix := deps
 
-all: test-rasmus test-current test-vitaly
+all: test-rasmus test-rasmus2 test-current test-vitaly
 
 -include .*.$(depssuffix)
 
